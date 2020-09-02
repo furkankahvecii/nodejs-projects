@@ -1,0 +1,23 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "REST API Development with Node.js, Express, and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["restapi","nodejs","express","mongodb"],
+  "author": "Furkan Kahveci",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "validator": "^13.1.1",
+    "xmlbuilder2": "^2.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

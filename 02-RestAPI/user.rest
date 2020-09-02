@@ -1,0 +1,37 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/5f4f6bb0f4cc2225087c2bd9
+
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "email" : "furkankahveci@hotmail.com.tr",
+    "password" : "123456"
+}
+
+###
+
+PATCH http://localhost:3000/users/5f4f6b82f4cc2225087c2bd8
+Content-Type:  application/json
+
+{
+    "email" : "furkankahveci2@hotmail.com.tr",
+    "password" : "123456789"
+}
+
+###
+
+DELETE http://localhost:3000/users/5f4f6b82f4cc2225087c2bd8
+
+###
+
+GET http://localhost:3000/users/xml
+
+###
+
+GET http://localhost:3000/users/xml/5f4f6bb0f4cc2225087c2bd9
